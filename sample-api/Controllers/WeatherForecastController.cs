@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -26,14 +27,22 @@ namespace sample_api.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            Stopwatch watch = Stopwatch.StartNew();
+            _logger.LogInformation("Entering WeatherForecast Get() method");
             var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            _logger.LogInformation("Random instance created");
+            IEnumerable<WeatherForecast> weatherForecasts = Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+
+            watch.Stop();
+            long elapsedMs = watch.ElapsedMilliseconds;
+            _logger.LogInformation("WeatherForecast result obtained in {0} ms", elapsedMs);
+            return weatherForecasts;
         }
     }
 }

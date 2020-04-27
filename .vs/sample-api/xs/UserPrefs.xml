@@ -1,16 +1,25 @@
 ﻿<Properties StartupConfiguration="{1A975B97-C6A4-4E8F-973C-416B9539A39B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument=".gitconfig">
+  <MonoDevelop.Ide.Workbench ActiveDocument="sample-api/Controllers/WeatherForecastController.cs">
     <Files>
-      <File FileName=".gitconfig" Line="329" Column="9" />
+      <File FileName="sample-api/Program.cs" Line="30" Column="6" />
+      <File FileName="sample-api/Startup.cs" Line="39" Column="1" />
+      <File FileName="sample-api/WeatherForecast.cs" Line="1" Column="1" />
+      <File FileName="sample-api/appsettings.Development.json" Line="13" Column="1" />
+      <File FileName="sample-api/appsettings.json" Line="1" Column="1" />
+      <File FileName="sample-api/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="sample-api" expanded="True">
-            <Node name="Solution Items" expanded="True">
-              <Node name="/Users/wma/source/repos/sample-api/.gitconfig" selected="True" />
+            <Node name="Solution Items" expanded="True" />
+            <Node name="sample-api" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="WeatherForecastController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
-            <Node name="sample-api" expanded="True" />
           </Node>
         </State>
       </Pad>
