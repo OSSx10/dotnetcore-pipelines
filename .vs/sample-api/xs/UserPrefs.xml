@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{1A975B97-C6A4-4E8F-973C-416B9539A39B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument=".gitconfig">
+    <Files>
+      <File FileName=".gitconfig" Line="329" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="sample-api" expanded="True">
+            <Node name="Solution Items" expanded="True">
+              <Node name="/Users/wma/source/repos/sample-api/.gitconfig" selected="True" />
+            </Node>
+            <Node name="sample-api" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.sample-api FirstBuild="True" PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
