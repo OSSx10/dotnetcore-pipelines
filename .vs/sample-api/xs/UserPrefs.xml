@@ -1,26 +1,26 @@
 ﻿<Properties StartupConfiguration="{1A975B97-C6A4-4E8F-973C-416B9539A39B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="sample-api/Controllers/ErrorController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="sample-api/Models/WeatherForecast.cs">
     <Files>
       <File FileName="sample-api/Program.cs" Line="27" Column="53" />
-      <File FileName="sample-api/Startup.cs" Line="38" Column="14" />
+      <File FileName="sample-api/Startup.cs" Line="45" Column="31" />
       <File FileName="sample-api/appsettings.Development.json" Line="13" Column="1" />
       <File FileName="sample-api/appsettings.json" Line="1" Column="1" />
-      <File FileName="sample-api/Controllers/WeatherForecastController.cs" Line="58" Column="10" />
-      <File FileName="sample-api/Controllers/ErrorController.cs" Line="1" Column="1" />
+      <File FileName="sample-api/Controllers/WeatherForecastController.cs" Line="55" Column="1" />
+      <File FileName="sample-api/Controllers/ErrorController.cs" Line="19" Column="9" />
+      <File FileName="sample-api/Models/WeatherForecast.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="sample-api" expanded="True">
-            <Node name="Solution Items" expanded="True" />
             <Node name="sample-api" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="FrameworkReferences" expanded="True" />
               </Node>
-              <Node name="Controllers" expanded="True">
-                <Node name="ErrorController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="WeatherForecast.cs" selected="True" />
               </Node>
-              <Node name="Models" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
