@@ -21,10 +21,10 @@ namespace sample_api
             WebHost.CreateDefaultBuilder(args)
             .ConfigureLogging((hostingContext, logging) =>
             {
+                logging.ClearProviders();
                 logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
                 logging.AddConsole();
-                logging.AddDebug();
-                logging.AddEventSourceLogger();
+                logging.AddAzureWebAppDiagnostics();
             })
             .UseStartup<Startup>();
     }

@@ -29,12 +29,20 @@ namespace sample_api
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        // error handling from
+        // see https://docs.microsoft.com/en-us/aspnet/core/web-api/handle-errors?view=aspnetcore-3.1
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger)
         {
             if (env.IsDevelopment())
             {
                 logger.LogInformation("In development environment");
-                app.UseDeveloperExceptionPage();
+                app.UseExceptionHandler("/error-local-development");
+            }
+            else
+            {
+                logger.LogInformation("In {0} environment", env.EnvironmentName);
+                app.UseExceptionHandler("/error");
+                app.UseHsts();
             }
 
             app.UseHttpsRedirection();

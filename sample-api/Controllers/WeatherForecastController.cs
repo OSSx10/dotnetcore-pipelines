@@ -44,5 +44,22 @@ namespace sample_api.Controllers
             _logger.LogInformation("WeatherForecast result obtained in {0} ms", elapsedMs);
             return weatherForecasts;
         }
+
+        [HttpGet("{city}")]
+        public IEnumerable<WeatherForecast> Get(string city)
+        {
+            Stopwatch watch = Stopwatch.StartNew();
+            _logger.LogInformation("Entering WeatherForecast Get({0}) method", city);
+            if (!string.Equals(city?.TrimEnd(), "Ottawa", StringComparison.OrdinalIgnoreCase))
+            {
+                throw new ArgumentException(
+                    $"We don't offer a weather forecast for {city}.", nameof(city));
+            }
+            watch.Stop();
+            long elapsedMs = watch.ElapsedMilliseconds;
+            _logger.LogInformation("WeatherForecast City check obtained in {0} ms", elapsedMs);
+
+            return Get();
+        }
     }
 }

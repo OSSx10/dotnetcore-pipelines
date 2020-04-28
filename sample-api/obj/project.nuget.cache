@@ -1,8 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "0rV+Du21YR4ULkCwghD7JNgGFg1GODIpx4nvNV3j1EScXGxBerWyvXdydrIFWMlzqjKC8S6LTVNxA//iNYXDjA==",
+  "dgSpecHash": "xjtE6asAxZOoCviEc8F0x4gDlzTgGQdCFFVtKB846iHxKFmx0bxL+vcjolSfgKAxQHf5hxuSewUIH3F9XoR1KQ==",
   "success": true,
   "projectFilePath": "/Users/wma/source/repos/sample-api/sample-api/sample-api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/wma/.nuget/packages/microsoft.extensions.configuration/3.1.3/microsoft.extensions.configuration.3.1.3.nupkg.sha512",
+    "/Users/wma/.nuget/packages/microsoft.extensions.configuration.abstractions/3.1.3/microsoft.extensions.configuration.abstractions.3.1.3.nupkg.sha512",
+    "/Users/wma/.nuget/packages/microsoft.extensions.configuration.binder/3.1.3/microsoft.extensions.configuration.binder.3.1.3.nupkg.sha512",
+    "/Users/wma/.nuget/packages/microsoft.extensions.configuration.environmentvariables/3.1.3/microsoft.extensions.configuration.environmentvariables.3.1.3.nupkg.sha512",
+    "/Users/wma/.nuget/packages/microsoft.extensions.configuration.fileextensions/3.1.3/microsoft.extensions.configuration.fileextensions.3.1.3.nupkg.sha512",
+    "/Users/wma/.nuget/packages/microsoft.extensions.configuration.json/3.1.3/microsoft.extensions.configuration.json.3.1.3.nupkg.sha512",
+    "/Users/wma/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.3/microsoft.extensions.dependencyinjection.3.1.3.nupkg.sha512",
+    "/Users/wma/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.3/microsoft.extensions.dependencyinjection.abstractions.3.1.3.nupkg.sha512",
+    "/Users/wma/.nuget/packages/microsoft.extensions.fileproviders.abstractions/3.1.3/microsoft.extensions.fileproviders.abstractions.3.1.3.nupkg.sha512",
+    "/Users/wma/.nuget/packages/microsoft.extensions.fileproviders.physical/3.1.3/microsoft.extensions.fileproviders.physical.3.1.3.nupkg.sha512",
+    "/Users/wma/.nuget/packages/microsoft.extensions.filesystemglobbing/3.1.3/microsoft.extensions.filesystemglobbing.3.1.3.nupkg.sha512",
+    "/Users/wma/.nuget/packages/microsoft.extensions.logging/3.1.3/microsoft.extensions.logging.3.1.3.nupkg.sha512",
+    "/Users/wma/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.3/microsoft.extensions.logging.abstractions.3.1.3.nupkg.sha512",
+    "/Users/wma/.nuget/packages/microsoft.extensions.logging.azureappservices/3.1.3/microsoft.extensions.logging.azureappservices.3.1.3.nupkg.sha512",
+    "/Users/wma/.nuget/packages/microsoft.extensions.logging.configuration/3.1.3/microsoft.extensions.logging.configuration.3.1.3.nupkg.sha512",
+    "/Users/wma/.nuget/packages/microsoft.extensions.options/3.1.3/microsoft.extensions.options.3.1.3.nupkg.sha512",
+    "/Users/wma/.nuget/packages/microsoft.extensions.options.configurationextensions/3.1.3/microsoft.extensions.options.configurationextensions.3.1.3.nupkg.sha512",
+    "/Users/wma/.nuget/packages/microsoft.extensions.primitives/3.1.3/microsoft.extensions.primitives.3.1.3.nupkg.sha512",
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
